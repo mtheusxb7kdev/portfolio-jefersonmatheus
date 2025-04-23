@@ -1,0 +1,48 @@
+
+body {
+  background-color: #121212;
+  color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #1f1f1f;
+  padding: 1em;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+}
+nav a {
+  color: #00e676;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  margin: 2em 0;
+}
+.project-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1em;
+}
+.project-card {
+  background: #1f1f1f;
+  border: 1px solid #333;
+  border-radius: 8px;
+  margin: 1em;
+  padding: 1em;
+  width: 30%;
+}
+footer {
+  background: #1f1f1f;
+  padding: 1em;
+  text-align: center;
+}
+footer a {
+  color: #00e676;
+  margin: 0 10px;
+}

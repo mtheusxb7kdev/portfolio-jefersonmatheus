@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeferson Matheus - Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jeferson Matheus</h1>
+        <p>Desenvolvedor Full Stack</p>
+        <a href="https://wa.me/5582999628264" class="whatsapp-button" target="_blank">Fale comigo no WhatsApp</a>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Sobre mim</h2>
+            <p>Sou um desenvolvedor full stack apaixonado por tecnologia e inovação. Trabalho criando soluções web com interatividade real.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projetos</h2>
+            <div class="project">
+                <h3>Lista de Tarefas</h3>
+                <input type="text" id="taskInput" placeholder="Digite uma tarefa">
+                <button onclick="addTask()">Adicionar</button>
+                <ul id="taskList"></ul>
+            </div>
+
+            <div class="project">
+                <h3>Consulta de CEP</h3>
+                <input type="text" id="cepInput" placeholder="Digite o CEP">
+                <button onclick="buscarCEP()">Buscar</button>
+                <p id="cepResultado"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Jeferson Matheus</p>
+        <a href="https://github.com/mtheusxb7kdev" target="_blank">GitHub</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
